@@ -1,0 +1,61 @@
+body {
+  background: #FCFCFC;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+#artist {
+  height: 400px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  flex: 2;
+}
+
+#albums {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-flow: row; 
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.playlist {
+  flex: 1;
+  margin: 20px;
+  max-width: 300px;
+}
+
+#relatedArtists {
+  margin-top: 40px;
+}
+
+#tracks {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+li {
+  color: #333333;
+  font-weight: bold;
+}
+
+#related {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#play {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
